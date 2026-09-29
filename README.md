@@ -104,7 +104,9 @@ rendering, and `data/basins/results.json` differs only in ODE entry times (relat
 differences below 1e-4) and timings; every classification is unchanged.
 
 The figure files in the submitted paper were rendered with matplotlib 3.11.1, except
-`fig_exit_scaling.pdf` (3.8.2). With matplotlib 3.8.2, `fig_landscape.pdf` and
+`fig_exit_scaling.pdf` (3.8.2). In the revision, `fig_landscape.pdf` (relabelled as the
+WKB potential) and the new `fig_extinction_scaling.pdf` (the extinction-time fits, which
+replace `fig_exit_scaling.pdf` in the paper) were rendered with matplotlib 3.11.1. With matplotlib 3.8.2, `fig_landscape.pdf` and
 `fig_action_results.pdf` have the same curves, colours and labels, with slightly different
 tick placement and text rendering.
 
@@ -117,7 +119,8 @@ Compile the simulators once:
 
 The figures read only stored data and take a few seconds:
 
-    python src/fig_proceedings_numerics.py      # fig_landscape, fig_action_results, fig_exit_scaling
+    python src/fig_proceedings_numerics.py      # fig_landscape, fig_action_results, fig_exit_scaling,
+                                                # fig_extinction_scaling
     cd src/basins && python separatrix.py && python fig_nullclines.py   # fig_nullclines, about 20 s
 
 These write the PDFs to the repository root.
