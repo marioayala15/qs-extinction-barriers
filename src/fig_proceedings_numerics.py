@@ -280,7 +280,50 @@ def exit_figure():
     print(f"wrote {destination}")
 
 
+def extinction_rows(rate):
+    """Censored-MLE mean extinction times per N from data/collapse_time/raw (second campaign)."""
+    rows = []
+    for path in sorted((DATA / "collapse_time" / "raw").glob(f"r{rate:g}_N*.npz")):
+        meta = json.loads(path.with_suffix(".json").read_text())
+        tau = np.load(path)["tau_off"]
+        horizon = meta["horizon"]
+        observed = np.isfinite(tau) & (tau <= horizon)
+        n_exit = int(observed.sum())
+        exposure = float(tau[observed].sum()) + horizon * (len(tau) - n_exit)
+        rows.append({"N": meta["N"], "Etau": exposure / n_exit, "n_exit": n_exit})
+    return sorted(rows, key=lambda row: row["N"])
+
+
+def extinction_figure():
+    """Extinction-time barrier extraction: the primary stochastic measurement."""
+    fig, axes = plt.subplots(1, 2, figsize=(5.7, 2.37), gridspec_kw={"width_ratios": [1.25, 1.0]})
+    for index, rate in enumerate((0.5, 1.0, 2.0, 4.0, 8.0)):
+        rows = extinction_rows(rate)
+        population, log_mean, weight, coefficients, residual, reduced = fit_exit(rows)
+        standard_error = 1.0 / np.sqrt(weight)
+        grid = np.linspace(population.min(), population.max(), 200)
+        fitted = coefficients[0] * grid + coefficients[1] * np.log(grid) + coefficients[2]
+        color, marker = OKABE_ITO[index], MARKERS[index]
+        axes[0].errorbar(population, log_mean, yerr=standard_error, fmt=marker,
+                         markersize=3.3, capsize=1.8, color=color)
+        axes[0].plot(grid, fitted, color=color, linestyle=DASHES[index], label=fr"$r={rate:g}$")
+        axes[1].errorbar(population, residual, yerr=standard_error, fmt=marker,
+                         markersize=3.2, capsize=1.8, color=color)
+    axes[0].set_xlabel(r"population scale $N$")
+    axes[0].set_ylabel(r"$\log\widehat{\mathrm{E}[\tau^{\mathrm{off}}_N]}$")
+    axes[0].legend(loc="upper left", ncol=2, framealpha=0.93)
+    axes[1].axhline(0.0, color="0.4", linewidth=0.9)
+    axes[1].set_xlabel(r"population scale $N$")
+    axes[1].set_ylabel(r"residual in $\log\widehat{\mathrm{E}[\tau^{\mathrm{off}}_N]}$")
+    fig.tight_layout(pad=0.7, w_pad=1.5)
+    destination = ROOT / "fig_extinction_scaling.pdf"
+    fig.savefig(destination)
+    plt.close(fig)
+    print(f"wrote {destination}")
+
+
 if __name__ == "__main__":
     barrier_landscape_figure()
     action_figure()
     exit_figure()
+    extinction_figure()
