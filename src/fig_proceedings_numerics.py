@@ -82,7 +82,12 @@ def death(x, cost):
 
 
 def barrier_landscape_figure(cost=0.36):
-    """The eliminated-signal quasipotential as a landscape, so the barrier is a height."""
+    """The eliminated-signal WKB potential as a landscape, so the barrier is a height.
+
+    The curve is the exponent of the quasi-stationary law, Phi(x) = int_{x_on}^x log(d/b).
+    On [x*, x_on] it equals the quasipotential from x_on; below x* the quasipotential
+    stays at DeltaV_inf, since the descent beyond the saddle is free.
+    """
     from scipy.integrate import quad
     x_on, x_star = 1.29675, 0.55881
     integrand = lambda s: np.log(death(s, cost) / division(ALPHA * s / KAPPA))
@@ -117,7 +122,7 @@ def barrier_landscape_figure(cost=0.36):
 
     ax.axhline(0.0, color="0.75", linewidth=0.7, zorder=1)
     ax.set_xlabel(r"cell density $x$")
-    ax.set_ylabel(r"quasipotential $V_\infty(x)$")
+    ax.set_ylabel(r"WKB potential $\Phi_\infty(x)$")
     ax.set_xlim(0.33, 1.45)
     fig.tight_layout(pad=0.4)
     destination = ROOT / "fig_landscape.pdf"
