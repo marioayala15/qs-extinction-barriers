@@ -78,10 +78,14 @@ falls from 0.63-0.64 at `N = 50` to 0.51-0.52 at `N = 3200`, at every rate.
     src/collapse_time/           C simulator recording threshold and extinction times along each
                                  trajectory, campaign runners, validation and analysis
     src/committor/               C simulator and runner for the success probability near the saddle
+    src/robustness/              checks added in revision: regression models, lattice rounding,
+                                 bootstrap, exponentiality, multi-start minimization, exact
+                                 equilibrium count
 
     data/                        stored output of the runs that are too slow to repeat;
-                                 data/basins, data/threshold_endpoint, data/collapse_time and
-                                 data/committor hold the output of the four folders above
+                                 data/basins, data/threshold_endpoint, data/collapse_time,
+                                 data/committor and data/robustness hold the output of the
+                                 five folders above
 
 Everything in `data/` is regenerable by the scripts above. It is tracked because the
 stochastic sweeps take hours and the figures should not require them. Two kinds of file
@@ -203,6 +207,22 @@ stored raw data, `analyze.py` reproduces `fit_results.json` exactly.
     python run_committor.py --workers 10 --nrep 20000 --nchunk 20   # about 4 minutes
 
 This reproduces `data/committor/results.json` exactly, apart from timings.
+
+### Robustness checks
+
+    cd src/robustness
+    python stats_robustness.py      # fits with and without log N, dropped sizes, the lattice
+                                    # regressor frac(N x*) with its null, exponentiality; seconds
+    python bootstrap_threshold.py   # parametric bootstrap of every slope; about a minute
+    python lattice_threshold.py     # stop at floor(N x*) - k, k = -1..3; about 24 minutes on 10 cores
+    python mam_robustness.py        # four initial paths at five rates, max|H|, exact
+                                    # piecewise-linear action; about 10 minutes
+    python sturm_equilibria.py      # exact count of positive equilibria at five costs
+
+These read the stored data of the earlier folders and write `data/robustness/`. The
+threshold times of the main campaign are stored as per-size summaries only, hence their
+bootstrap is parametric; on the extinction campaign it agrees with the bootstrap over
+trajectories to 0.0003. The quick run of the lattice test (`--nrep 200`) takes seconds.
 
 ## What this does not settle
 

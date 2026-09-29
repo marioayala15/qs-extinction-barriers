@@ -1,0 +1,130 @@
+{
+ "settings": {
+  "par": {
+   "b0": "0.5",
+   "b1": "2.0",
+   "d0": "0.8",
+   "theta": "1.0",
+   "aC": "2.0",
+   "aH": "0.5",
+   "kappa": "1.0",
+   "Kh": "1.0",
+   "h": "4.0",
+   "beta": "0.5",
+   "Denv": "1.0"
+  },
+  "method": "Sturm sequence, exact rationals"
+ },
+ "costs": {
+  "0.2": {
+   "coefficients_low_to_high": [
+    "-1/2",
+    "-1",
+    "0",
+    "0",
+    "24",
+    "-16"
+   ],
+   "degree": 5,
+   "P_at_0": "-1/2",
+   "n_positive_roots": 2,
+   "all_roots_simple": true,
+   "positive_roots": [
+    0.49999999999982947,
+    1.473855793422274
+   ],
+   "float_search": [
+    0.5000000000000001,
+    1.473855793422319
+   ]
+  },
+  "0.3": {
+   "coefficients_low_to_high": [
+    "-3/5",
+    "-1",
+    "0",
+    "0",
+    "112/5",
+    "-16"
+   ],
+   "degree": 5,
+   "P_at_0": "-3/5",
+   "n_positive_roots": 2,
+   "all_roots_simple": true,
+   "positive_roots": [
+    0.5351882682164615,
+    1.3645884586595458
+   ],
+   "float_search": [
+    0.5351882682165031,
+    1.364588458659584
+   ]
+  },
+  "0.36": {
+   "coefficients_low_to_high": [
+    "-33/50",
+    "-1",
+    "0",
+    "0",
+    "536/25",
+    "-16"
+   ],
+   "degree": 5,
+   "P_at_0": "-33/50",
+   "n_positive_roots": 2,
+   "all_roots_simple": true,
+   "positive_roots": [
+    0.5588112173244304,
+    1.2967495269504503
+   ],
+   "float_search": [
+    0.5588112173244355,
+    1.2967495269504326
+   ]
+  },
+  "0.45": {
+   "coefficients_low_to_high": [
+    "-3/4",
+    "-1",
+    "0",
+    "0",
+    "20",
+    "-16"
+   ],
+   "degree": 5,
+   "P_at_0": "-3/4",
+   "n_positive_roots": 2,
+   "all_roots_simple": true,
+   "positive_roots": [
+    0.6003651637975338,
+    1.1894399424294022
+   ],
+   "float_search": [
+    0.6003651637974652,
+    1.189439942429254
+   ]
+  },
+  "0.5": {
+   "coefficients_low_to_high": [
+    "-4/5",
+    "-1",
+    "0",
+    "0",
+    "96/5",
+    "-16"
+   ],
+   "degree": 5,
+   "P_at_0": "-4/5",
+   "n_positive_roots": 2,
+   "all_roots_simple": true,
+   "positive_roots": [
+    0.6288077296737583,
+    1.1248568437101993
+   ],
+   "float_search": [
+    0.6288077296738065,
+    1.1248568437102597
+   ]
+  }
+ }
+}
