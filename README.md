@@ -241,6 +241,17 @@ saddle barrier with the least action needed to reach `R_off` is likewise stated,
 proved. The minimizer is local, and no claim is made that it is globally reliable in
 higher dimensions.
 
+## Citing
+
+Please cite the paper above. To cite this code and data, use the archived release
+(`CITATION.cff` has the metadata; GitHub shows it under "Cite this repository").
+
+## Licence
+
+The code is released under the MIT licence (see `LICENSE`). The data in `data/` and the
+figure files are released under the Creative Commons Attribution 4.0 International
+licence (CC BY 4.0).
+
 ## Use of AI assistance
 
 The code, the numerical checks and this README were developed with the help of Claude

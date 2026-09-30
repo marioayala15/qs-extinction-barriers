@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this archive."
+title: "Computing extinction barriers in a quorum-sensing reaction network: code and data"
+type: software
+authors:
+  - family-names: Ayala
+    given-names: Mario
+    affiliation: "Technische Universität München"
+  - family-names: Zimmer
+    given-names: Johannes
+    affiliation: "Technische Universität München"
+version: v1.0-mmsc2026
+date-released: 2026-09-30
+license: MIT
+repository-code: "https://github.com/marioayala15/qs-extinction-barriers"
+abstract: >-
+  Minimum-action and exit-time computations, solver settings, and the stored
+  barriers reproducing the figures of the paper "Computing Extinction Barriers
+  in a Quorum-Sensing Reaction Network" by M. Ayala and J. Zimmer.
+keywords:
+  - large deviations
+  - minimum action method
+  - quasipotential
+  - stochastic simulation
+  - reaction networks
+  - quorum sensing
