@@ -1,5 +1,7 @@
 # Extinction barriers in a quorum-sensing reaction network
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23062341.svg)](https://doi.org/10.5281/zenodo.23062341)
+
 Code and data for
 
 > M. Ayala and J. Zimmer, *Computing Extinction Barriers in a Quorum-Sensing Reaction
@@ -243,8 +245,12 @@ higher dimensions.
 
 ## Citing
 
-Please cite the paper above. To cite this code and data, use the archived release
-(`CITATION.cff` has the metadata; GitHub shows it under "Cite this repository").
+Please cite the paper above. To cite this code and data, use the archived release on
+Zenodo: version `v1.0-mmsc2026`, the one the paper cites, is
+[doi:10.5281/zenodo.23062342](https://doi.org/10.5281/zenodo.23062342), and
+[doi:10.5281/zenodo.23062341](https://doi.org/10.5281/zenodo.23062341) always resolves to
+the latest version. `CITATION.cff` has the metadata; GitHub shows it under "Cite this
+repository".
 
 ## Licence
 
