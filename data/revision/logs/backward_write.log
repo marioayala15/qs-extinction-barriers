@@ -1,0 +1,400 @@
+r=0.5 N=40 thr: tau=66.13722 unknowns=29889 0s
+r=1 N=40 thr: tau=53.351942 unknowns=32471 0s
+r=2 N=40 thr: tau=41.682171 unknowns=34967 0s
+r=0.5 N=40 small: tau=528.28259 unknowns=35419 0s
+r=1 N=40 small: tau=190.54906 unknowns=38438 0s
+r=0.5 N=40 off: tau=525.99187 direct=525.99187 unknowns=35147 0s
+r=2 N=40 small: tau=95.237904 unknowns=41348 0s
+r=4 N=40 thr: tau=33.456125 unknowns=36999 0s
+r=1 N=40 off: tau=188.92567 direct=188.92567 unknowns=38166 0s
+r=2 N=40 off: tau=93.974721 direct=93.974721 unknowns=41076 0s
+r=4 N=40 small: tau=61.500731 unknowns=43702 0s
+r=8 N=40 thr: tau=28.537338 unknowns=38124 0s
+r=8 N=40 small: tau=47.565215 unknowns=45034 0s
+r=4 N=40 off: tau=60.415787 direct=60.415787 unknowns=43430 0s
+r=1 N=47 thr: tau=92.687683 unknowns=39824 0s
+r=8 N=40 off: tau=46.558689 direct=46.558689 unknowns=44762 0s
+r=1 N=47 small: tau=355.4526 unknowns=47653 0s
+r=0.5 N=50 thr: tau=189.74319 unknowns=40179 0s
+r=1 N=50 thr: tau=134.73159 unknowns=43427 0s
+r=1 N=47 off: tau=353.87907 direct=353.87907 unknowns=47294 0s
+r=2 N=50 thr: tau=93.005231 unknowns=46903 0s
+r=0.5 N=50 small: tau=1682.7668 unknowns=48071 0s
+r=1 N=50 small: tau=465.73865 unknowns=51907 0s
+r=0.5 N=50 off: tau=1680.3624 direct=1680.3624 unknowns=47639 0s
+r=4 N=50 thr: tau=68.501954 unknowns=49535 0s
+r=1 N=50 off: tau=464.04529 direct=464.04529 unknowns=51475 1s
+r=2 N=50 small: tau=199.01572 unknowns=55943 0s
+r=8 N=50 thr: tau=55.644738 unknowns=51119 0s
+r=2 N=50 off: tau=197.70363 direct=197.70363 unknowns=55511 1s
+r=4 N=50 small: tau=118.00659 unknowns=59023 0s
+r=1 N=55 thr: tau=196.17805 unknowns=49499 0s
+r=8 N=50 small: tau=87.279387 unknowns=60915 0s
+r=4 N=50 off: tau=116.87759 direct=116.87759 unknowns=58591 1s
+r=1 N=55 small: tau=733.12703 unknowns=59549 0s
+r=0.5 N=60 thr: tau=444.95712 unknowns=51495 0s
+r=8 N=50 off: tau=86.227291 direct=86.227291 unknowns=60483 1s
+r=0.5 N=60 small: tau=5489.8476 unknowns=62427 0s
+r=1 N=55 off: tau=731.53778 direct=731.53778 unknowns=59066 1s
+r=1 N=60 thr: tau=287.36512 unknowns=55457 0s
+r=2 N=60 thr: tau=181.05026 unknowns=59679 0s
+r=0.5 N=60 off: tau=5487.4914 direct=5487.4914 unknowns=61830 1s
+r=1 N=60 small: tau=1158.5759 unknowns=67171 0s
+r=4 N=60 thr: tau=125.32364 unknowns=62950 0s
+r=1 N=60 off: tau=1156.9287 direct=1156.9287 unknowns=66574 1s
+r=2 N=60 small: tau=420.99845 unknowns=72141 0s
+r=8 N=60 thr: tau=98.288727 unknowns=64721 0s
+r=4 N=60 small: tau=228.40248 unknowns=76024 0s
+r=2 N=60 off: tau=419.74402 direct=419.74402 unknowns=71544 1s
+r=1 N=62 thr: tau=347.88027 unknowns=58157 0s
+r=4 N=60 off: tau=227.3465 direct=227.3465 unknowns=75427 1s
+r=8 N=60 small: tau=161.21436 unknowns=78169 1s
+r=2 N=65 thr: tau=253.8561 unknowns=66359 0s
+r=1 N=62 small: tau=1392.5464 unknowns=70502 1s
+r=8 N=60 off: tau=160.24585 direct=160.24585 unknowns=77572 1s
+r=0.5 N=70 thr: tau=1073.6358 unknowns=63663 0s
+r=1 N=62 off: tau=1390.9064 direct=1390.9064 unknowns=69886 1s
+r=2 N=65 small: tau=614.98415 unknowns=80744 1s
+r=1 N=70 thr: tau=625.87647 unknowns=68207 0s
+r=0.5 N=70 small: tau=18165.739 unknowns=78108 1s
+r=2 N=65 off: tau=613.72903 direct=613.72903 unknowns=80054 1s
+r=2 N=70 thr: tau=357.20369 unknowns=73215 1s
+r=1 N=70 small: tau=2918.5913 unknowns=83612 1s
+r=0.5 N=70 off: tau=18163.307 direct=18163.307 unknowns=77283 1s
+r=4 N=70 thr: tau=231.43581 unknowns=76994 0s
+r=1 N=70 off: tau=2916.897 direct=2916.897 unknowns=82787 1s
+r=2 N=70 small: tau=900.39764 unknowns=89580 1s
+r=8 N=70 thr: tau=174.91303 unknowns=79743 0s
+r=4 N=70 small: tau=446.53752 unknowns=94119 1s
+r=2 N=70 off: tau=899.10826 direct=899.10826 unknowns=88755 1s
+r=1 N=77 thr: tau=1132.5239 unknowns=77884 0s
+r=4 N=70 off: tau=445.44711 direct=445.44711 unknowns=93294 1s
+r=8 N=70 small: tau=300.70359 unknowns=97388 1s
+r=0.5 N=80 thr: tau=3408.4653 unknowns=76733 0s
+r=1 N=77 small: tau=5600.7735 unknowns=96084 1s
+r=8 N=70 off: tau=299.69717 direct=299.69717 unknowns=96563 1s
+r=1 N=80 thr: tau=1669.3363 unknowns=82702 0s
+r=0.5 N=80 small: tau=60614.974 unknowns=94626 1s
+r=1 N=77 off: tau=5599.1203 direct=5599.1203 unknowns=95112 1s
+r=2 N=80 thr: tau=813.23085 unknowns=87935 0s
+r=1 N=80 small: tau=7412.7075 unknowns=101810 1s
+r=0.5 N=80 off: tau=60612.58 direct=60612.58 unknowns=93578 1s
+r=4 N=80 thr: tau=477.27566 unknowns=92446 0s
+r=2 N=80 small: tau=1940.8067 unknowns=108168 1s
+r=1 N=80 off: tau=7411.0468 direct=7411.0468 unknowns=100762 1s
+r=4 N=80 small: tau=879.56344 unknowns=113624 1s
+r=8 N=80 thr: tau=342.10976 unknowns=95447 1s
+r=2 N=80 off: tau=1939.5569 direct=1939.5569 unknowns=107120 2s
+r=1 N=85 thr: tau=2500.5722 unknowns=89693 1s
+r=4 N=80 off: tau=878.52344 direct=878.52344 unknowns=112576 2s
+r=8 N=80 small: tau=564.99644 unknowns=117210 2s
+r=0.5 N=90 thr: tau=8590.8255 unknowns=90575 1s
+r=1 N=85 small: tau=11839.056 unknowns=111047 1s
+r=8 N=80 off: tau=564.04786 direct=564.04786 unknowns=116162 2s
+r=1 N=90 thr: tau=3757.8751 unknowns=97231 1s
+r=0.5 N=90 small: tau=203309.08 unknowns=112771 1s
+r=1 N=85 off: tau=11837.398 direct=11837.398 unknowns=109877 2s
+r=1 N=90 small: tau=18928.979 unknowns=120855 1s
+r=2 N=90 thr: tau=1639.7604 unknowns=103499 1s
+r=0.5 N=90 off: tau=203306.63 direct=203306.63 unknowns=111427 2s
+r=4 N=90 thr: tau=896.30847 unknowns=108367 1s
+r=2 N=90 small: tau=4207.1904 unknowns=128551 1s
+r=8 N=90 thr: tau=617.92675 unknowns=111814 1s
+r=1 N=90 off: tau=18927.283 direct=18927.283 unknowns=119511 2s
+r=4 N=90 small: tau=1742.869 unknowns=134490 1s
+r=2 N=90 off: tau=4205.9133 direct=4205.9133 unknowns=127207 2s
+r=1 N=92 thr: tau=4590.6098 unknowns=100319 1s
+r=4 N=90 off: tau=1741.8005 direct=1741.8005 unknowns=133146 2s
+r=8 N=90 small: tau=1068.242 unknowns=138651 1s
+r=2 N=95 thr: tau=2336.0701 unknowns=111279 1s
+r=1 N=92 small: tau=22843.475 unknowns=124817 1s
+r=0.5 N=100 thr: tau=28390.038 unknowns=105557 1s
+r=8 N=90 off: tau=1067.2608 direct=1067.2608 unknowns=137307 3s
+r=1 N=92 off: tau=22841.843 direct=22841.843 unknowns=123459 2s
+r=2 N=95 small: tau=6203.9692 unknowns=138849 2s
+r=1 N=100 thr: tau=10245.341 unknowns=112930 1s
+r=0.5 N=100 small: tau=684221.83 unknowns=131973 1s
+r=2 N=100 thr: tau=3768.4796 unknowns=120419 1s
+r=2 N=95 off: tau=6202.748 direct=6202.748 unknowns=137416 3s
+r=0.5 N=100 off: tau=684219.41 direct=684219.41 unknowns=130348 2s
+r=1 N=100 small: tau=48510.408 unknowns=140970 1s
+r=4 N=100 thr: tau=1860.6815 unknowns=125887 1s
+r=1 N=100 off: tau=48508.738 direct=48508.738 unknowns=139345 3s
+r=2 N=100 small: tau=9156.0771 unknowns=150083 2s
+r=8 N=100 thr: tau=1216.3847 unknowns=129824 1s
+r=4 N=100 small: tau=3468.3022 unknowns=156783 2s
+r=2 N=100 off: tau=9154.8296 direct=9154.8296 unknowns=148458 3s
+r=0.5 N=110 thr: tau=73391.458 unknowns=120693 1s
+r=8 N=100 small: tau=2028.9251 unknowns=161560 1s
+r=4 N=100 off: tau=3467.2717 direct=3467.2717 unknowns=155158 3s
+r=0.5 N=110 small: tau=2308020.8 unknowns=152146 1s
+r=1 N=110 thr: tau=23561.947 unknowns=129014 1s
+r=8 N=100 off: tau=2027.9878 direct=2027.9878 unknowns=159935 3s
+r=2 N=110 thr: tau=7713.3587 unknowns=137222 1s
+r=0.5 N=110 off: tau=2308018.3 direct=2308018.3 unknowns=150157 2s
+r=1 N=110 small: tau=124627.47 unknowns=162389 2s
+r=4 N=110 thr: tau=3538.4817 unknowns=143513 1s
+r=2 N=110 small: tau=19982.157 unknowns=172457 2s
+r=8 N=110 thr: tau=2223.1437 unknowns=147940 1s
+r=1 N=110 off: tau=124625.77 direct=124625.77 unknowns=160400 3s
+r=4 N=110 small: tau=6923.8856 unknowns=180236 2s
+r=0.5 N=120 thr: tau=191132.8 unknowns=137084 1s
+r=2 N=110 off: tau=19980.887 direct=19980.887 unknowns=170468 3s
+r=4 N=110 off: tau=6922.8309 direct=6922.8309 unknowns=178247 3s
+r=8 N=110 small: tau=3867.1074 unknowns=185655 2s
+r=0.5 N=120 small: tau=7798298.1 unknowns=174007 2s
+r=1 N=120 thr: tau=54592.722 unknowns=146162 1s
+r=8 N=110 off: tau=3866.1416 direct=3866.1416 unknowns=183666 4s
+r=1 N=120 small: tau=320739.01 unknowns=185261 2s
+r=2 N=120 thr: tau=15875.768 unknowns=155117 1s
+r=0.5 N=120 off: tau=7798295.6 direct=7798295.5 unknowns=171679 3s
+r=4 N=120 thr: tau=6760.8313 unknowns=162035 1s
+r=2 N=120 small: tau=43696.423 unknowns=196324 2s
+r=1 N=120 off: tau=320737.33 direct=320737.33 unknowns=182933 4s
+r=8 N=120 thr: tau=4081.0888 unknowns=166979 2s
+r=2 N=120 off: tau=43695.177 direct=43695.177 unknowns=193996 5s
+r=4 N=120 small: tau=13854.394 unknowns=204942 3s
+r=0.5 N=130 thr: tau=652388.75 unknowns=154579 2s
+r=4 N=120 off: tau=13853.37 direct=13853.37 unknowns=202614 5s
+r=8 N=120 small: tau=7389.6864 unknowns=211042 3s
+r=0.5 N=130 small: tau=26381043 unknowns=196729 2s
+r=1 N=130 thr: tau=151638.06 unknowns=164111 1s
+r=2 N=130 thr: tau=36809.533 unknowns=174104 1s
+r=1 N=130 small: tau=826506.05 unknowns=208743 2s
+r=8 N=120 off: tau=7388.7559 direct=7388.7559 unknowns=208714 5s
+r=0.5 N=130 off: tau=26381041 direct=26381038 unknowns=193969 5s
+r=4 N=130 thr: tau=14143.141 unknowns=182093 1s
+r=2 N=130 small: tau=95695.155 unknowns=221145 2s
+r=1 N=130 off: tau=826504.35 direct=826504.35 unknowns=205983 4s
+r=8 N=130 thr: tau=8098.9991 unknowns=187599 1s
+r=4 N=130 small: tau=27770.104 unknowns=230959 3s
+r=0.5 N=140 thr: tau=1720474.1 unknowns=172149 1s
+r=2 N=130 off: tau=95693.89 direct=95693.89 unknowns=218385 4s
+r=8 N=130 small: tau=14148.792 unknowns=237779 3s
+r=0.5 N=140 small: tau=89328556 unknowns=220503 2s
+r=4 N=130 off: tau=27769.059 direct=27769.059 unknowns=228199 5s
+r=1 N=140 thr: tau=355520.57 unknowns=183096 1s
+r=8 N=130 off: tau=14147.837 direct=14147.837 unknowns=235019 5s
+r=0.5 N=140 off: tau=89328553 direct=89328546 unknowns=217346 4s
+r=2 N=140 thr: tau=76383.085 unknowns=193904 2s
+r=1 N=140 small: tau=2131864.6 unknowns=234215 3s
+r=4 N=140 thr: tau=27213.798 unknowns=201879 2s
+r=1 N=140 off: tau=2131862.9 direct=2131862.9 unknowns=231058 4s
+r=2 N=140 small: tau=209804.33 unknowns=247709 3s
+r=8 N=140 thr: tau=14969.12 unknowns=207658 2s
+r=4 N=140 small: tau=55735.739 unknowns=257738 3s
+r=0.5 N=150 thr: tau=5952222.1 unknowns=191028 1s
+r=2 N=140 off: tau=209803.09 direct=209803.09 unknowns=244552 5s
+r=4 N=140 off: tau=55734.718 direct=55734.718 unknowns=254581 5s
+r=8 N=140 small: tau=27130.516 unknowns=264939 3s
+r=0.5 N=150 small: tau=3.0269571e+08 unknowns=245333 3s
+r=1 N=150 thr: tau=992043.43 unknowns=202826 1s
+r=8 N=140 off: tau=27129.59 direct=27129.59 unknowns=261782 5s
+r=2 N=150 thr: tau=177137.08 unknowns=214475 2s
+r=1 N=150 small: tau=5502974.2 unknowns=260155 3s
+r=0.5 N=150 off: tau=3.0269571e+08 direct=3.0269575e+08 unknowns=241676 5s
+r=4 N=150 thr: tau=56957.177 unknowns=223439 2s
+r=2 N=150 small: tau=460371.15 unknowns=274744 4s
+r=8 N=150 thr: tau=29739.846 unknowns=230287 2s
+r=1 N=150 off: tau=5502972.5 direct=5502972.5 unknowns=256498 6s
+r=4 N=150 small: tau=111976.41 unknowns=286060 4s
+r=0.5 N=160 thr: tau=15830389 unknowns=209495 2s
+r=2 N=150 off: tau=460369.88 direct=460369.88 unknowns=271087 7s
+r=8 N=150 small: tau=52083.207 unknowns=294420 4s
+r=4 N=150 off: tau=111975.37 direct=111975.37 unknowns=282403 7s
+r=1 N=160 thr: tau=2346113 unknowns=222098 2s
+r=0.5 N=160 small: tau=1.0263028e+09 unknowns=270710 3s
+r=8 N=150 off: tau=52082.259 direct=52082.259 unknowns=290763 7s
+r=2 N=160 thr: tau=369730.68 unknowns=235313 2s
+r=0.5 N=160 off: tau=1.0263028e+09 direct=1.0263017e+09 unknowns=266598 6s
+r=4 N=160 thr: tau=110146.29 unknowns=244985 2s
+r=1 N=160 small: tau=14213190 unknowns=286643 4s
+r=2 N=160 small: tau=1010859.9 unknowns=303098 4s
+r=1 N=160 off: tau=14213188 direct=14213189 unknowns=282531 7s
+r=8 N=160 thr: tau=55233.437 unknowns=252452 2s
+r=4 N=160 small: tau=225143.99 unknowns=315380 4s
+r=2 N=160 off: tau=1010858.6 direct=1010858.6 unknowns=298986 7s
+r=8 N=160 small: tau=100075.77 unknowns=324557 4s
+r=4 N=160 off: tau=225142.98 direct=225142.98 unknowns=311268 6s
+r=8 N=160 off: tau=100074.84 direct=100074.84 unknowns=320445 6s
+r=0.5 N=180 thr: tau=1.4797047e+08 unknowns=250154 1s
+r=0.5 N=180 off: tau=1.181391e+10 unknowns=320434 3s
+r=0.5 N=180 small: tau=1.181391e+10 unknowns=325627 3s
+r=1 N=180 thr: tau=15621727 unknowns=265319 1s
+r=1 N=180 small: tau=94942510 unknowns=344731 3s
+r=1 N=180 off: tau=94942509 direct=94942480 unknowns=339538 5s
+r=2 N=180 thr: tau=1796134.1 unknowns=279875 1s
+r=2 N=180 off: tau=4880970.8 direct=4880970.9 unknowns=358033 5s
+r=2 N=180 small: tau=4880972 unknowns=363226 3s
+r=4 N=180 thr: tau=447334.01 unknowns=291581 1s
+r=4 N=180 small: tau=911783.63 unknowns=377962 3s
+r=4 N=180 off: tau=911782.62 direct=911782.61 unknowns=372769 6s
+r=8 N=180 thr: tau=204576.36 unknowns=299154 1s
+r=8 N=180 small: tau=370228.24 unknowns=387555 3s
+r=8 N=180 off: tau=370227.32 direct=370227.32 unknowns=382362 6s
+r=0.5 N=200 off: tau=1.3616965e+11 unknowns=378278 3s
+r=0.5 N=200 thr: tau=1.3994939e+09 unknowns=293695 1s
+r=1 N=200 thr: tau=1.0467681e+08 unknowns=310269 2s
+r=0.5 N=200 small: tau=1.3616965e+11 unknowns=384678 3s
+r=1 N=200 small: tau=6.350308e+08 unknowns=405956 4s
+r=1 N=200 off: tau=6.350308e+08 direct=6.3503087e+08 unknowns=399556 7s
+r=2 N=200 thr: tau=8744948.9 unknowns=326654 2s
+r=2 N=200 off: tau=23601895 direct=23601891 unknowns=420533 7s
+r=2 N=200 small: tau=23601896 unknowns=426933 4s
+r=4 N=200 thr: tau=1820741.2 unknowns=339972 2s
+r=4 N=200 small: tau=3698737.6 unknowns=443835 4s
+r=4 N=200 off: tau=3698736.6 direct=3698736.4 unknowns=437435 9s
+r=8 N=200 thr: tau=759619.15 unknowns=349447 2s
+r=8 N=200 small: tau=1372297 unknowns=455662 6s
+r=8 N=200 off: tau=1372296 direct=1372296 unknowns=449262 10s
+r=0.5 N=220 off: tau=1.5709874e+12 unknowns=440514 5s
+r=0.5 N=220 thr: tau=1.3356826e+10 unknowns=340199 3s
+r=1 N=220 thr: tau=7.0461612e+08 unknowns=358339 3s
+r=0.5 N=220 small: tau=1.5709874e+12 unknowns=448247 5s
+r=1 N=220 small: tau=4.2513702e+09 unknowns=471676 6s
+r=1 N=220 off: tau=4.2513702e+09 direct=4.2512638e+09 unknowns=463943 11s
+r=2 N=220 thr: tau=42637002 unknowns=377637 3s
+r=2 N=220 off: tau=1.1424205e+08 direct=1.1424203e+08 unknowns=488530 11s
+r=2 N=220 small: tau=1.1424205e+08 unknowns=496263 6s
+r=4 N=220 thr: tau=7421707.5 unknowns=392314 3s
+r=4 N=220 small: tau=15021872 unknowns=514999 6s
+r=4 N=220 off: tau=15021871 direct=15021870 unknowns=507266 12s
+r=8 N=220 thr: tau=2825413.5 unknowns=402211 3s
+r=8 N=220 small: tau=5093412.9 unknowns=527725 6s
+r=8 N=220 off: tau=5093412 direct=5093411.4 unknowns=519992 13s
+r=0.5 N=240 off: tau=1.8136978e+13 unknowns=505438 7s
+r=0.5 N=240 thr: tau=9.7222618e+10 unknowns=387365 3s
+r=1 N=240 thr: tau=4.0930949e+09 unknowns=408847 3s
+r=0.5 N=240 small: tau=1.8136978e+13 unknowns=514630 7s
+r=1 N=240 off: tau=2.848112e+10 unknowns=533130 7s
+r=2 N=240 thr: tau=1.9042055e+08 unknowns=428735 3s
+r=1 N=240 small: tau=2.848112e+10 unknowns=542322 7s
+r=2 N=240 small: tau=5.5338214e+08 unknowns=568150 7s
+r=2 N=240 off: tau=5.5338214e+08 direct=5.5337994e+08 unknowns=558958 13s
+r=4 N=240 thr: tau=28333174 unknowns=445127 3s
+r=4 N=240 small: tau=61061016 unknowns=589267 7s
+r=4 N=240 off: tau=61061015 direct=61060972 unknowns=580075 15s
+r=8 N=240 thr: tau=9936207.4 unknowns=456739 3s
+r=8 N=240 small: tau=18923060 unknowns=603984 8s
+r=0.5 N=260 off: tau=2.0950049e+14 unknowns=574814 7s
+r=8 N=240 off: tau=18923059 direct=18923056 unknowns=594792 15s
+r=0.5 N=260 thr: tau=9.3835728e+11 unknowns=438599 3s
+r=1 N=260 thr: tau=2.7835051e+10 unknowns=461811 3s
+r=1 N=260 off: tau=1.909008e+11 unknowns=604888 6s
+r=0.5 N=260 small: tau=2.0950049e+14 unknowns=585591 7s
+r=2 N=260 thr: tau=9.3321271e+08 unknowns=484179 4s
+r=1 N=260 small: tau=1.909008e+11 unknowns=615665 7s
+r=2 N=260 small: tau=2.6820409e+09 unknowns=644895 9s
+r=2 N=260 off: tau=2.6820409e+09 direct=2.6820832e+09 unknowns=634118 14s
+r=4 N=260 thr: tau=1.1601183e+08 unknowns=503145 4s
+r=4 N=260 off: tau=2.4835975e+08 direct=2.4835977e+08 unknowns=658340 16s
+r=4 N=260 small: tau=2.4835975e+08 unknowns=669117 9s
+r=8 N=260 thr: tau=37122195 unknowns=514723 4s
+r=0.5 N=280 off: tau=2.4209315e+15 unknowns=648036 8s
+r=8 N=260 small: tau=70354137 unknowns=684199 10s
+r=8 N=260 off: tau=70354136 direct=70354077 unknowns=673422 17s
+r=0.5 N=280 thr: tau=9.1002438e+12 unknowns=492552 4s
+r=1 N=280 thr: tau=1.8960795e+11 unknowns=518443 4s
+r=1 N=280 off: tau=1.280062e+12 unknowns=681777 8s
+r=0.5 N=280 small: tau=2.4209315e+15 unknowns=660524 9s
+r=2 N=280 thr: tau=4.5736377e+09 unknowns=542075 5s
+r=2 N=280 off: tau=1.3004448e+10 unknowns=712788 10s
+r=1 N=280 small: tau=1.280062e+12 unknowns=694265 12s
+r=4 N=280 thr: tau=4.7513805e+08 unknowns=563023 4s
+r=2 N=280 small: tau=1.3004448e+10 unknowns=725276 11s
+r=4 N=280 small: tau=1.0106761e+09 unknowns=752190 11s
+r=4 N=280 off: tau=1.0106761e+09 direct=1.01066e+09 unknowns=739702 18s
+r=8 N=280 thr: tau=1.3875102e+08 unknowns=576962 5s
+r=8 N=280 off: tau=2.6171636e+08 direct=2.6171667e+08 unknowns=757566 19s
+r=8 N=280 small: tau=2.6171636e+08 unknowns=770054 10s
+r=0.5 N=300 thr: tau=8.8605674e+13 unknowns=548463 5s
+r=0.5 N=300 off: tau=2.79847e+16 unknowns=724478 11s
+r=0.5 N=300 small: tau=2.79847e+16 unknowns=738803 10s
+r=1 N=300 thr: tau=1.2931359e+12 unknowns=576174 5s
+r=1 N=300 off: tau=8.5859992e+12 unknowns=760757 11s
+r=2 N=300 thr: tau=2.2413751e+10 unknowns=603713 5s
+r=2 N=300 off: tau=6.3076181e+10 unknowns=796696 11s
+r=1 N=300 small: tau=8.5859992e+12 unknowns=775082 13s
+r=4 N=300 thr: tau=1.9462787e+09 unknowns=624959 5s
+r=2 N=300 small: tau=6.3076181e+10 unknowns=811021 10s
+r=4 N=300 off: tau=4.1144417e+09 unknowns=824494 12s
+r=8 N=300 thr: tau=5.1876924e+08 unknowns=640095 5s
+r=4 N=300 small: tau=4.1144417e+09 unknowns=838819 13s
+r=8 N=300 small: tau=9.7400954e+08 unknowns=858323 11s
+r=8 N=300 off: tau=9.7400954e+08 direct=9.7398902e+08 unknowns=843998 23s
+r=0.5 N=320 off: tau=3.2357304e+17 unknowns=804498 12s
+r=0.5 N=320 thr: tau=8.6559108e+14 unknowns=606869 5s
+r=1 N=320 thr: tau=8.826791e+12 unknowns=636941 5s
+r=0.5 N=320 small: tau=3.2357304e+17 unknowns=820786 11s
+r=1 N=320 off: tau=5.7605061e+13 unknowns=844057 12s
+r=2 N=320 thr: tau=1.0982793e+11 unknowns=666329 5s
+r=1 N=320 small: tau=5.7605061e+13 unknowns=860345 12s
+r=2 N=320 off: tau=3.06025e+11 unknowns=882574 13s
+r=4 N=320 thr: tau=7.9731349e+09 unknowns=690983 5s
+r=2 N=320 small: tau=3.06025e+11 unknowns=898862 12s
+r=4 N=320 off: tau=1.675501e+10 unknowns=914567 13s
+r=8 N=320 thr: tau=1.9400363e+09 unknowns=707387 6s
+r=4 N=320 small: tau=1.675501e+10 unknowns=930855 14s
+r=8 N=320 off: tau=3.6261742e+09 unknowns=935804 14s
+r=0.5 N=340 thr: tau=8.4797764e+15 unknowns=668219 5s
+r=8 N=320 small: tau=3.6261743e+09 unknowns=952092 14s
+r=0.5 N=340 off: tau=3.7421133e+18 unknowns=888702 12s
+r=1 N=340 thr: tau=6.0285955e+13 unknowns=700744 6s
+r=0.5 N=340 small: tau=3.7421133e+18 unknowns=907079 13s
+r=1 N=340 off: tau=3.8656299e+14 unknowns=931677 13s
+r=2 N=340 thr: tau=5.380725e+11 unknowns=732551 6s
+r=1 N=340 small: tau=3.8656299e+14 unknowns=950054 14s
+r=2 N=340 off: tau=1.4850623e+12 unknowns=973554 13s
+r=4 N=340 thr: tau=3.2664218e+10 unknowns=758352 6s
+r=2 N=340 small: tau=1.4850623e+12 unknowns=991931 13s
+r=4 N=340 off: tau=6.8247741e+10 unknowns=1007145 14s
+r=8 N=340 thr: tau=7.2563109e+09 unknowns=776042 6s
+r=4 N=340 small: tau=6.8247741e+10 unknowns=1025522 16s
+r=8 N=340 off: tau=1.3503886e+10 unknowns=1030155 15s
+r=0.5 N=360 thr: tau=6.2518632e+16 unknowns=731159 6s
+r=0.5 N=360 off: tau=4.3285116e+19 unknowns=977090 13s
+r=8 N=340 small: tau=1.3503886e+10 unknowns=1048532 18s
+r=1 N=360 thr: tau=3.6075177e+14 unknowns=765629 7s
+r=0.5 N=360 small: tau=4.3285116e+19 unknowns=997682 16s
+r=1 N=360 off: tau=2.5945035e+15 unknowns=1022872 15s
+r=2 N=360 thr: tau=2.4473609e+12 unknowns=799343 8s
+r=1 N=360 small: tau=2.5945035e+15 unknowns=1043464 17s
+r=2 N=360 off: tau=7.2079538e+12 unknowns=1067494 15s
+r=4 N=360 thr: tau=1.2654008e+11 unknowns=827342 7s
+r=2 N=360 small: tau=7.2079538e+12 unknowns=1088086 17s
+r=4 N=360 off: tau=2.7804976e+11 unknowns=1104179 18s
+r=8 N=360 thr: tau=2.5861905e+10 unknowns=846335 7s
+r=4 N=360 small: tau=2.7804976e+11 unknowns=1124771 19s
+r=8 N=360 off: tau=5.030043e+10 unknowns=1129030 17s
+r=0.5 N=380 thr: tau=6.145963e+17 unknowns=796353 7s
+r=8 N=360 small: tau=5.030043e+10 unknowns=1149622 18s
+r=0.5 N=380 off: tau=5.0075443e+20 unknowns=1067469 18s
+r=1 N=380 thr: tau=2.4739362e+15 unknowns=833374 7s
+r=0.5 N=380 small: tau=5.0075443e+20 unknowns=1090402 19s
+r=1 N=380 off: tau=1.7416083e+16 unknowns=1116844 18s
+r=2 N=380 thr: tau=1.2013804e+13 unknowns=871138 7s
+r=1 N=380 small: tau=1.7416083e+16 unknowns=1139777 18s
+r=2 N=380 off: tau=3.4990149e+13 unknowns=1166536 16s
+r=4 N=380 thr: tau=5.193029e+11 unknowns=900899 8s
+r=2 N=380 small: tau=3.4990149e+13 unknowns=1189469 19s
+r=4 N=380 off: tau=1.1330067e+12 unknowns=1205669 20s
+r=8 N=380 thr: tau=9.6892526e+10 unknowns=920695 10s
+r=4 N=380 small: tau=1.1330067e+12 unknowns=1228602 25s
+r=8 N=380 off: tau=1.8740039e+11 unknowns=1231642 24s
+r=0.5 N=400 thr: tau=6.0531629e+18 unknowns=866384 9s
+r=8 N=380 small: tau=1.8740039e+11 unknowns=1254575 25s
+r=0.5 N=400 off: tau=5.7938292e+21 unknowns=1164127 23s
+r=1 N=400 thr: tau=1.6964799e+16 unknowns=904931 9s
+r=0.5 N=400 small: tau=5.7938292e+21 unknowns=1189527 23s
+r=1 N=400 off: tau=1.1692284e+17 unknowns=1215666 23s
+r=1 N=400 small: tau=1.1692284e+17 unknowns=1241066 21s
+r=2 N=400 thr: tau=5.8952915e+13 unknowns=943826 10s
+r=2 N=400 off: tau=1.6987745e+14 unknowns=1267553 24s
+r=4 N=400 thr: tau=2.130825e+12 unknowns=975347 10s
+r=2 N=400 small: tau=1.6987745e+14 unknowns=1292953 24s
+r=4 N=400 off: tau=4.6174935e+12 unknowns=1309154 24s
+r=8 N=400 thr: tau=3.629932e+11 unknowns=996511 10s
+r=4 N=400 small: tau=4.6174935e+12 unknowns=1334554 28s
+r=8 N=400 off: tau=6.9829948e+11 unknowns=1337038 25s
+r=8 N=400 small: tau=6.9829948e+11 unknowns=1362438 22s
+wrote /Users/mario/Research Projects/qs-turnover-barriers/data/revision/backward_equation/results.json

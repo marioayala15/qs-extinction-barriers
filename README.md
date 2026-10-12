@@ -83,11 +83,16 @@ falls from 0.63-0.64 at `N = 50` to 0.51-0.52 at `N = 3200`, at every rate.
     src/robustness/              checks added in revision: regression models, lattice rounding,
                                  bootstrap, exponentiality, multi-start minimization, exact
                                  equilibrium count
+    src/revision/                computations of the referee revision (October 2026): backward
+                                 equation for the mean exit times, barriers below r = 0.5,
+                                 signal abundance, diffusion approximation, and the two
+                                 redrawn figures
 
     data/                        stored output of the runs that are too slow to repeat;
                                  data/basins, data/threshold_endpoint, data/collapse_time,
                                  data/committor and data/robustness hold the output of the
                                  five folders above
+    data/revision/               output of src/revision
 
 Everything in `data/` is regenerable by the scripts above. It is tracked because the
 stochastic sweeps take hours and the figures should not require them. Two kinds of file
@@ -228,6 +233,23 @@ These read the stored data of the earlier folders and write `data/robustness/`. 
 threshold times of the main campaign are stored as per-size summaries only, hence their
 bootstrap is parametric; on the extinction campaign it agrees with the bootstrap over
 trajectories to 0.0003. The quick run of the lattice test (`--nrep 200`) takes seconds.
+
+### The referee revision
+
+    python src/revision/backward_equation.py --check   # solver checks, about two minutes
+    python src/revision/backward_equation.py --write   # mean exit times for N = 40..400
+    python src/revision/analyze_backward.py            # growth rates, prefactors, refits of the simulations
+    python src/revision/small_r_sweep.py               # barriers at nine rates below r = 0.5
+    python src/revision/small_r_coldstart.py           # cold starts at r = 0.0625 and 0.125
+    python src/revision/signal_abundance.py            # signal count scaled as nu N; about two minutes
+    python src/revision/diffusion_barrier.py           # quadratic Lagrangian at finite r; about one minute
+    python src/revision/fig_revision.py                # fig_extinction_scaling.pdf, fig_action_results.pdf
+
+The backward equation is solved on a truncated lattice through a renewal identity at the
+lattice point nearest to `U_on`; it uses neither sampling nor the action solver. The full
+grid is 399 solves with up to 1.4e6 unknowns and took 36 minutes. The figures of the
+revised paper are those of `fig_revision.py`, which reads stored data only. These
+computations are not in the Zenodo version v1.0-mmsc2026.
 
 ## What this does not settle
 

@@ -1,0 +1,19 @@
+{'r': 0.0625, 'bow': 0.6, 'T': 320.0, 'dt': 0.04, 'dV': 0.23288854630868916, 'success': True, 'secs': 76.67449593544006}
+{'r': 0.125, 'bow': 0.6, 'T': 160.0, 'dt': 0.04, 'dV': 0.20194548765835255, 'success': True, 'secs': 198.83624505996704}
+{'r': 0.125, 'bow': -0.6, 'T': 160.0, 'dt': 0.04, 'dV': 0.20194573389469384, 'success': True, 'secs': 283.90297174453735}
+{'r': 0.0625, 'bow': -0.6, 'T': 320.0, 'dt': 0.04, 'dV': 0.23288959043000618, 'success': True, 'secs': 901.5707120895386}
+wrote /Users/mario/Research Projects/qs-turnover-barriers/data/revision/small_r/coldstart.json
+slow-signal reduced barrier V_0 = 0.272426
+r=0.01562 T=1280 dt=0.08: dV=0.2617406 success=True 201s
+r=0.01562 T=1280 dt=0.04: dV=0.2617406 success=True 1s
+r=0.01562 T=1280 dt=0.02: dV=0.2617406 success=True 2s
+r=0.01562 T=1920 dt=0.08: dV=0.2617406 success=True 324s
+r=0.01562 T=1920 dt=0.04: dV=0.2617406 success=True 1s
+r=0.01562 T=1920 dt=0.02: dV=0.2617406 success=True 2s
+r=0.00781 T=2560 dt=0.08: dV=0.2670190 success=True 773s
+r=0.00781 T=2560 dt=0.04: dV=0.2670190 success=True 2s
+r=0.00781 T=2560 dt=0.02: dV=0.2670190 success=True 3s
+r=0.00781 T=3840 dt=0.08: dV=0.2670190 success=True 1259s
+r=0.00781 T=3840 dt=0.04: dV=0.2670190 success=True 3s
+r=0.00781 T=3840 dt=0.02: dV=0.2670190 success=True 5s
+wrote /Users/mario/Research Projects/qs-turnover-barriers/data/revision/small_r/summary.json
