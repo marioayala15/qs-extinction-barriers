@@ -249,16 +249,17 @@ The backward equation is solved on a truncated lattice through a renewal identit
 lattice point nearest to `U_on`; it uses neither sampling nor the action solver. The full
 grid is 399 solves with up to 1.4e6 unknowns and took 36 minutes. The figures of the
 revised paper are those of `fig_revision.py`, which reads stored data only. These
-computations are not in the Zenodo version v1.0-mmsc2026.
+computations are in the Zenodo version v1.1-mmsc2026, not in v1.0-mmsc2026.
 
 ## What this does not settle
 
 The barrier is computed for one network at one working cost, and the stochastic routes
 cover `r` in `{0.5, 1, 2, 4, 8}` only, since the horizon needed at larger `r` grows with
-the barrier. The prefactor `C(N)` in `E[tau_N] = C(N) exp(N DeltaV)` is not computed: it
-is absorbed into a regression on `N` and `log N`, with the uncertainty scaled to unit
-reduced chi-square, and `src/ldp_crossover_exit.py --verify` is what licenses that
-scaling. The relation between the action barrier and the mean extinction time relies on
+the barrier. For the prefactor `C(N)` in `E[tau_N] = C(N) exp(N DeltaV)` there is no formula:
+the backward equation gives its limit numerically, between 2.5 and 3.3 for the extinction
+time at these rates (`src/revision/analyze_backward.py`). The regression on `N` and `log N`
+of the submitted version (`src/ldp_crossover_exit.py`) is kept for the record; the
+backward equation does not support the `log N` term. The relation between the action barrier and the mean extinction time relies on
 metastable exit estimates for the jump process that the paper states but does not prove;
 the stochastic results support it over the simulated sizes only. The identification of the
 saddle barrier with the least action needed to reach `R_off` is likewise stated, not
@@ -268,7 +269,8 @@ higher dimensions.
 ## Citing
 
 Please cite the paper above. To cite this code and data, use the archived release on
-Zenodo: version `v1.0-mmsc2026`, the one the paper cites, is
+Zenodo. The revised paper cites version `v1.1-mmsc2026`, which contains the computations of
+the referee revision. Version `v1.0-mmsc2026`, cited by the submitted paper, is
 [doi:10.5281/zenodo.23062342](https://doi.org/10.5281/zenodo.23062342), and
 [doi:10.5281/zenodo.23062341](https://doi.org/10.5281/zenodo.23062341) always resolves to
 the latest version. `CITATION.cff` has the metadata; GitHub shows it under "Cite this

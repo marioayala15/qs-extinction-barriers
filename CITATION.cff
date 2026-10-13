@@ -9,9 +9,8 @@ authors:
   - family-names: Zimmer
     given-names: Johannes
     affiliation: "Technische Universität München"
-version: v1.0-mmsc2026
-doi: 10.5281/zenodo.23062342
-date-released: 2026-09-30
+version: v1.1-mmsc2026
+date-released: 2026-10-13
 license: MIT
 repository-code: "https://github.com/marioayala15/qs-extinction-barriers"
 abstract: >-
