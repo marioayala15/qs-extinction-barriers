@@ -270,7 +270,8 @@ higher dimensions.
 
 Please cite the paper above. To cite this code and data, use the archived release on
 Zenodo. The revised paper cites version `v1.1-mmsc2026`, which contains the computations of
-the referee revision. Version `v1.0-mmsc2026`, cited by the submitted paper, is
+the referee revision:
+[doi:10.5281/zenodo.23348482](https://doi.org/10.5281/zenodo.23348482). Version `v1.0-mmsc2026`, cited by the submitted paper, is
 [doi:10.5281/zenodo.23062342](https://doi.org/10.5281/zenodo.23062342), and
 [doi:10.5281/zenodo.23062341](https://doi.org/10.5281/zenodo.23062341) always resolves to
 the latest version. `CITATION.cff` has the metadata; GitHub shows it under "Cite this
